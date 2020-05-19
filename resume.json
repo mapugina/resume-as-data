@@ -1,0 +1,269 @@
+{
+    "contact": {
+        "name": "Michael Pugina",
+        "phone": "801.709.0630",
+        "email": "mapugina@gmail.com",
+        "github": "https://github.com/mapugina"
+    },
+    "skills": [
+        {
+            "name": "node.js",
+            "type": "runtime",
+            "skill": 3,
+            "lastUse": "current",
+            "versions": [
+                "4 - 12"
+            ]
+        }, {
+            "name": "npm",
+            "type": "packaging",
+            "skill": 3,
+            "lastUse": "current",
+            "versions": [
+                "2 - 6"
+            ]
+        }, {
+            "name": "JavaScript",
+            "type": "language",
+            "skill": 3,
+            "lastUse": "current",
+            "versions": [
+                "5",
+                "ES6 (ES2015)",
+                "ES 2016",
+                "ES 2017",
+                "ES 2018",
+                "ES 2019"
+            ]
+        }, {
+            "name": "TypeScript",
+            "type": "language",
+            "skill": 3,
+            "lastUse": "current",
+            "versions": [
+                "2.0 - 3.9.2"
+            ]
+        }, {
+            "name": "angular.js",
+            "type": "framework",
+            "skill": 4,
+            "lastUse": "current",
+            "versions": [
+                "1.2 - 1.7"
+            ]
+        }, {
+            "name": "Angular",
+            "type": "framework",
+            "skill": 3,
+            "lastUse": "current",
+            "versions": [
+                "4-9"
+            ]
+        }, {
+            "name": "HTML",
+            "type": "language",
+            "skill": 4,
+            "lastUse": "current",
+            "versions": [
+                "5"
+            ]
+        }, {
+            "name": "CSS",
+            "type": "language",
+            "skill": 3,
+            "lastUse": "current",
+            "versions": [
+                "3"
+            ]
+        }, {
+            "name": "Git",
+            "type": "tool",
+            "skill": 3,
+            "lastUse": "current",
+            "versions": [
+                "1.9 - 2.26"
+            ]
+        }, {
+            "name": "JIRA",
+            "type": "tool",
+            "skill": 3,
+            "lastUse": "current"
+        }, {
+            "name": "BitBucket",
+            "type": "tool",
+            "skill": 4,
+            "lastUse": "current"
+        }, {
+            "name": "Confluence",
+            "type": "tool",
+            "skill": 2,
+            "lastUse": "current"
+        }, {
+            "name": "WebStorm",
+            "type": "IDE",
+            "skill": 4,
+            "lastUse": "current"
+        }, {
+            "name": "IntelliJ Ultimate",
+            "type": "IDE",
+            "skill": 3,
+            "lastUse": "current"
+        }, {
+            "name": "Visual Studio",
+            "type": "IDE",
+            "skill": 3,
+            "lastUse": "2016"
+        }, {
+            "name": "Kotlin",
+            "type": "language",
+            "skill": 2,
+            "lastUse": "December 2019"
+        }, {
+            "name": "AutoIT",
+            "type": "language",
+            "skill": 2,
+            "lastUse": "2011"
+        }, {
+            "name": "C",
+            "type": "language",
+            "skill": 2,
+            "lastUse": "December 2012"
+        }, {
+            "name": "C++",
+            "type": "language",
+            "skill": 2,
+            "lastUse": "December 2016",
+            "versions": [
+                "C++03",
+                "C++11",
+                "C++14"
+            ]
+        }, {
+            "name": "python",
+            "type": "language",
+            "skill": 1,
+            "lastUse": "December 2019",
+            "versions": [
+                "3.8"
+            ]
+        }, {
+            "name": "C#",
+            "type": "language",
+            "skill": 2,
+            "lastUse": "December 2018"
+        }, {
+            "name": "R",
+            "type": "language",
+            "skill": 1,
+            "lastUse": "December 2017"
+        }, {
+            "name": "MATLAB",
+            "type": "language",
+            "skill": 1,
+            "lastUse": "December 2017"
+        }
+    ],
+    "experience": [
+        {
+            "name": "Hughes",
+            "positions": [
+                {
+                    "title": "Frontend Technical Lead",
+                    "period": {
+                        "begin": "2018",
+                        "end": "Present"
+                    },
+                    "skills": [
+                        "node.js",
+                        "npm",
+                        "JavaScript",
+                        "TypeScript",
+                        "angular.js",
+                        "Angular",
+                        "HTML",
+                        "CSS",
+                        "Git",
+                        "JIRA",
+                        "BitBucket",
+                        "Confluence", 
+                        "WebStorm"
+                    ],
+                    "notable": []
+                }, {
+                    "title": "Software Engineer",
+                    "period": {
+                        "begin": "2014",
+                        "end": "2018"
+                    },
+                    "skills": [
+                        "node.js",
+                        "npm",
+                        "JavaScript",
+                        "TypeScript",
+                        "angular.js",
+                        "Angular",
+                        "HTML",
+                        "CSS",
+                        "Git",
+                        "JIRA",
+                        "BitBucket",
+                        "Confluence", 
+                        "WebStorm"
+                    ],
+                    "notable": []
+                }
+            ]
+        }, {
+            "name": "Neovest",
+            "positions": [
+                {
+                    "title": "Quality Assurance Intern",
+                    "period": {
+                        "begin": "2010",
+                        "end": "2011"
+                    },
+                    "skills": [
+                        "AutoIT"
+                    ],
+                    "notable": []
+                }
+            ]
+        }
+    ],
+    "education": [
+        {
+            "name": "Utah Valley University",
+            "positions": [{
+                "title": "Undergraduate Student",
+                "period": {
+                    "begin": "2006",
+                    "end": "2019"
+                },
+                "skills": [
+                    "C",
+                    "C++",
+                    "C#",
+                    "python",
+                    "R",
+                    "MATLAB",
+                    "Kotlin",
+                    "Visual Studio",
+                    "Git"
+                ],
+                "notable": [
+                ]
+            }]
+        }, {
+            "name": "Skyline Senior High School",
+            "positions": [{
+                "title": "High School Student",
+                "period": {
+                    "begin": "2003",
+                    "end": "2006"
+                },
+                "notable": [
+                ]
+            }]
+        }
+    ]
+}
