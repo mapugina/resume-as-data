@@ -139,7 +139,7 @@
                 "C++14"
             ]
         }, {
-            "name": "python",
+            "name": "Python",
             "type": "language",
             "skill": 1,
             "lastUse": "December 2019",
@@ -161,6 +161,64 @@
             "type": "language",
             "skill": 1,
             "lastUse": "December 2017"
+        }, {
+            "name": "Less",
+            "type": "language",
+            "skill": 3,
+            "lastUse": "current"
+        }, {
+            "name": "Sass",
+            "type": "language",
+            "skill": 2,
+            "lastUse": "current"
+        }, {
+            "name": "Bootstrap",
+            "type": "framework",
+            "skill": 4,
+            "lastUse": "current",
+            "versions": [
+                "3"
+            ]
+        }, {
+            "name": "Ruby on Rails",
+            "type": "framework",
+            "skill": 2,
+            "lastUse": "2014"
+        }, {
+            "name": "Apache",
+            "type": "server",
+            "skill": 2,
+            "lastUse": "current"
+        }, {
+            "name": "Docker",
+            "type": "tool",
+            "skill": 2,
+            "lastUse": "current"
+        }, {
+            "name": "Webpack",
+            "type": "tool",
+            "skill": 2,
+            "lastUse": "June 2018"
+        }, {
+            "name": "express",
+            "type": "server",
+            "skill": 2,
+            "lastUse": "April 2019"
+        }, {
+            "name": "MacOS",
+            "type": "OS",
+            "skill": 4,
+            "lastUse": "current"
+        }, {
+            "name": "Ubuntu Linux",
+            "type": "OS",
+            "skill": 2,
+            "lastUse": "current"
+        }, {
+            "name": "Windows",
+            "type": "OS",
+            "skill": 4,
+            "lastUse": "current"
         }
     ],
     "experience": [
@@ -185,8 +243,14 @@
                         "Git",
                         "JIRA",
                         "BitBucket",
-                        "Confluence", 
-                        "WebStorm"
+                        "Confluence",
+                        "Docker",
+                        "WebStorm",
+                        "express",
+                        "MacOS",
+                        "Bootstrap",
+                        "Sass",
+                        "Less"
                     ],
                     "notable": []
                 }, {
@@ -208,7 +272,11 @@
                         "JIRA",
                         "BitBucket",
                         "Confluence", 
-                        "WebStorm"
+                        "WebStorm",
+                        "Webpack",
+                        "Bootstrap",
+                        "Less",
+                        "MacOS"
                     ],
                     "notable": []
                 }
@@ -223,7 +291,8 @@
                         "end": "2011"
                     },
                     "skills": [
-                        "AutoIT"
+                        "AutoIT",
+                        "Windows"
                     ],
                     "notable": []
                 }
@@ -243,11 +312,12 @@
                     "C",
                     "C++",
                     "C#",
-                    "python",
+                    "Python",
                     "R",
                     "MATLAB",
                     "Kotlin",
                     "Visual Studio",
+                    "IntelliJ Ultimate",
                     "Git"
                 ],
                 "notable": [
