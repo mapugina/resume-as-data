@@ -1,0 +1,53 @@
+mixin institution(source)
+    each company in source
+        .job
+            .job-company #{company.name}
+            each position in company.positions
+                +position(position)
+
+mixin position(position) 
+    .position
+        .position-heading
+            span.position-title #{position.title}
+            span.position-held-range #{position.period.begin} - #{position.period.end}
+
+        if (position.description)
+            .position-description #{position.description}
+
+        ul.position-duties
+            each duty in position.notable
+                li #{duty}
+
+mixin contact(contact)
+    .headline
+        .applicant
+            #applicant-name #{contact.name}
+            #applicant-position #{contact.jobTitle}
+        
+        .contact-info
+            #phone-number #{contact.phone}
+            #email-address #{contact.email}
+
+
+mixin resume(contact, experience, education)
+    +contact(contact)
+
+    #technical-skills.section
+        .section-title Technologies
+        ul.technologies
+            each title in skills.sort((a, b) => a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1)
+                if title.skill > 2
+                    li #{title.name}
+
+    #job-experience.section
+        .section-title Applicable Experience
+        +institution(experience)
+
+    #education.section
+        .section-title Education
+        +institution(education)
+
+                        
+
+
+
