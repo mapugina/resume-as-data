@@ -252,7 +252,13 @@
                         "Sass",
                         "Less"
                     ],
-                    "notable": []
+                    "notable": [
+                        "Collaborated with engineering, design, and management on behalf of the frontend team.",
+                        "Reviewed and approved pull requests from engineers.",
+                        "Found and applied new technologies to keep development current and running smoothly",
+                        "Mentored junior engineers and provided solutions to difficult problems other engineers could not.",
+                        "Created and orchestrated docker environment for both development and production,"
+                    ]
                 }, {
                     "title": "Software Engineer",
                     "period": {
@@ -278,7 +284,13 @@
                         "Less",
                         "MacOS"
                     ],
-                    "notable": []
+                    "notable": [
+                        "Gathered and recorded requirements for new features based on customer requests and designs.",
+                        "Documented processes, application architecture, and work to be completed.",
+                        "Migrated legacy static application to an angular.js SPA and then migrated that to an angular PWA.",
+                        "Created and maintained reusable private node modules to aid development and promote code reuse.",
+                        "Defined, mocked, and consumed RESTful API endpoints."
+                    ]
                 }
             ]
         }, {
@@ -294,7 +306,11 @@
                         "AutoIT",
                         "Windows"
                     ],
-                    "notable": []
+                    "notable": [
+                        "Created and maintained automated testing scripts in AutoIT3 and JUnit.",
+                        "Manually tested software for new releases.",
+                        "Reported, tracked and verified discovered bugs."
+                    ]
                 }
             ]
         }
@@ -320,18 +336,19 @@
                     "IntelliJ Ultimate",
                     "Git"
                 ],
+                "description": "Created compiler for custom Object-Oriented language in Kotlin as capstone project and completed coursework including:",
                 "notable": [
-                ]
-            }]
-        }, {
-            "name": "Skyline Senior High School",
-            "positions": [{
-                "title": "High School Student",
-                "period": {
-                    "begin": "2003",
-                    "end": "2006"
-                },
-                "notable": [
+                    "Artificial Intelligence",
+                    "Advanced Architecture",
+                    "Database Theory",
+                    "Software Engineering",
+                    "Web Development",
+                    "Computer Networks",
+                    "Analysis of Algorithms",
+                    "Numerical Software Development",
+                    "Discrete Mathematics",
+                    "Computational Theory",
+                    "Game Development"
                 ]
             }]
         }
