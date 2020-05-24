@@ -1,0 +1,19 @@
+{
+  "name": "resume-as-data",
+  "version": "1.0.0",
+  "description": "A project to make various versions of my resume from data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapugina/resume-as-data.git"
+  },
+  "author": "Michael Pugina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapugina/resume-as-data/issues"
+  },
+  "homepage": "https://github.com/mapugina/resume-as-data#readme"
+}
