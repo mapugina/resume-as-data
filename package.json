@@ -4,8 +4,8 @@
   "description": "A project to make various versions of my resume from data",
   "main": "index.js",
   "scripts": {
-    "pug:watch": "pug -O json/resume.json --pretty --watch -o dist/pug/ dataToHtml/index.pug",
-    "pug:build": "pug -O json/resume.json --pretty dataToHtml/index.pug -o dist/pug/"
+    "pug:watch": "pug -O json/resume.json --pretty --watch -o dist/ dataToHtml/index.pug",
+    "pug:build": "pug -O json/resume.json --pretty dataToHtml/index.pug -o dist/"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/mapugina/resume-as-data#readme",
   "dependencies": {},
   "devDependencies": {
-    "pug": "^2.0.4"
+    "pug": "^2.0.4",
+    "pug-cli": "^1.0.0-alpha6"
   }
 }
