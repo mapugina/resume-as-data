@@ -19,9 +19,16 @@ steps:
     npm ci
     npm run prod
   displayName: 'npm install and build'
-  
+
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)/dist'
+    Contents: '**'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)/dist'
+    CleanTargetFolder: true
+
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Pipeline.Workspace)/dist'
+    targetPath: '$(Build.ArtifactStagingDirectory)/dist'
     artifact: 'staticAssets'
     publishLocation: 'pipeline'
