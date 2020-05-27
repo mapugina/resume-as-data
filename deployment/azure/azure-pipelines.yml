@@ -21,14 +21,14 @@ steps:
   displayName: 'npm install and build'
 
 - task: CopyFiles@2
-  displayName: 'Publish Artifact'
   inputs:
     SourceFolder: '$(Build.SourcesDirectory)/dist'
-    content: '**\*',
-    targetFolder: $(Build.ArtifactStagingDirectory)/dist
-    cleanTargetFolder: true
+    Contents: '**'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)/dist'
+    CleanTargetFolder: true
 
-- task: PublishBuildArtifacts@1
-  displayName: 'Publish Artifact'
+- task: PublishPipelineArtifact@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    targetPath: '$(Build.ArtifactStagingDirectory)/dist'
+    artifact: 'staticAssets'
+    publishLocation: 'pipeline'
