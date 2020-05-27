@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "pug:watch": "pug -O json/resume.json --pretty --watch -o dist/ dataToHtml/index.pug",
-    "pug:build": "pug -O json/resume.json --pretty dataToHtml/index.pug -o dist/"
+    "pug:build": "pug -O json/resume.json --pretty dataToHtml/index.pug -o dist/",
+    "dev": "webpack --watch --mode development",
+    "prod": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,13 @@
   "homepage": "https://github.com/mapugina/resume-as-data#readme",
   "dependencies": {},
   "devDependencies": {
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
     "pug": "^2.0.4",
-    "pug-cli": "^1.0.0-alpha6"
+    "pug-cli": "^1.0.0-alpha6",
+    "pug-html-loader": "^1.1.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
   }
 }
