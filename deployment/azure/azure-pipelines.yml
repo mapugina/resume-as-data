@@ -23,12 +23,12 @@ steps:
 - task: CopyFiles@2
   displayName: 'Publish Artifact'
   inputs:
-    SourceFolder: '$(Build.SourcesDirectory)/output'
+    SourceFolder: '$(Build.SourcesDirectory)/dist'
     content: '**\*',
-    targetFolder: $(Build.ArtifactStagingDirectory)/output
+    targetFolder: $(Build.ArtifactStagingDirectory)/dist
     cleanTargetFolder: true
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact'
   inputs:
-    PathtoPublish: '$(build.artifactstagingdirectory)'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
