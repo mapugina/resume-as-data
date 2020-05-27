@@ -19,3 +19,16 @@ steps:
     npm ci
     npm run prod
   displayName: 'npm install and build'
+
+- task: CopyFiles@2
+  displayName: 'Publish Artifact'
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)/output'
+    content: '**\*',
+    targetFolder: $(Build.ArtifactStagingDirectory)/output
+    cleanTargetFolder: true
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact'
+  inputs:
+    PathtoPublish: '$(build.artifactstagingdirectory)'
