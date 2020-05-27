@@ -5,10 +5,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const resume = require('./json/resume.json');
 
 const config = {
-    entry: './dataToHtml/index.pug',
+    entry: './dataToHtml/main.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].bundle.js'
+        filename: '[name].[hash].bundle.js'
     },
     module: {
         rules: [{
@@ -20,6 +20,24 @@ const config = {
                 }
             }
             ]
+        }, {
+            test: /\.css$/,
+            use: [
+                'style-loader',
+                'css-loader'
+            ],
+        },
+        {
+            test: /\.(png|svg|jpg|gif)$/,
+            use: [
+                'file-loader',
+            ],
+        },
+        {
+            test: /\.(woff|woff2|eot|ttf|otf)$/,
+            use: [
+                'file-loader',
+            ],
         }]
     },
     plugins: [
