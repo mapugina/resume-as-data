@@ -25,7 +25,7 @@
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
     "node-forge": ">=0.10.0",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "pug-cli": "^1.0.0-alpha6",
     "pug-html-loader": "^1.1.5",
     "style-loader": "^1.2.1",
